@@ -5,15 +5,15 @@ if (str_replace(DIRECTORY_SEPARATOR, "/", __FILE__) == $_SERVER['SCRIPT_FILENAME
 }
 
 /** The database Host */
-define('G_DBTYPE', 'postgresql');
+define('G_DBTYPE', 'mysql');
 /** The database Host */
-define('G_DBHOST', 'postgresql://efront_database_user:svkK4IXJ25Z2mmCYJSN3D2d0LAQFuoLk@dpg-d8nbtbm7r5hc73al78dg-a/efront_database');
+define('G_DBHOST', 'efront-database-efront.g.aivencloud.com');
 /** The database user*/
-define('G_DBUSER', 'efront_database_user');
+define('G_DBUSER', 'avnadmin');
 /** The database user password*/
-define('G_DBPASSWD', 'svkK4IXJ25Z2mmCYJSN3D2d0LAQFuoLk');
+define('G_DBPASSWD', 'AVNS_j46Zp30SVy5X-zeaocO');
 /** The database name*/
-define('G_DBNAME', 'efront_database');
+define('G_DBNAME', 'defaultdb');
 /** The database tables prefix*/
 define('G_DBPREFIX', '');
 
