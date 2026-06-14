@@ -5,7 +5,7 @@ if (str_replace(DIRECTORY_SEPARATOR, "/", __FILE__) == $_SERVER['SCRIPT_FILENAME
 }
 
 /** The database Host */
-define('G_DBTYPE', 'mysql');
+define('G_DBTYPE', 'mysqli');
 /** The database Host */
 define('G_DBHOST', getenv('DB_HOST'));
 /** The database user*/
