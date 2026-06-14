@@ -7,13 +7,13 @@ if (str_replace(DIRECTORY_SEPARATOR, "/", __FILE__) == $_SERVER['SCRIPT_FILENAME
 /** The database Host */
 define('G_DBTYPE', 'mysql');
 /** The database Host */
-define('G_DBHOST', 'efront-database-efront.g.aivencloud.com');
+define('G_DBHOST', getenv('DB_HOST'));
 /** The database user*/
-define('G_DBUSER', 'avnadmin');
+define('G_DBUSER', getenv('DB_USER'));
 /** The database user password*/
-define('G_DBPASSWD', 'AVNS_j46Zp30SVy5X-zeaocO');
+define('G_DBPASSWD', getenv('DB_PASSWD'));
 /** The database name*/
-define('G_DBNAME', 'defaultdb');
+define('G_DBNAME', getenv('DB_NAME'));
 /** The database tables prefix*/
 define('G_DBPREFIX', '');
 
