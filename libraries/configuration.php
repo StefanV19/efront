@@ -5,20 +5,20 @@ if (str_replace(DIRECTORY_SEPARATOR, "/", __FILE__) == $_SERVER['SCRIPT_FILENAME
 }
 
 /** The database Host */
-define('G_DBTYPE', 'mysql');
+define('G_DBTYPE', 'postgresql');
 /** The database Host */
-define('G_DBHOST', 'localhost');
+define('G_DBHOST', 'postgresql://efront_database_user:svkK4IXJ25Z2mmCYJSN3D2d0LAQFuoLk@dpg-d8nbtbm7r5hc73al78dg-a/efront_database');
 /** The database user*/
-define('G_DBUSER', 'root');
+define('G_DBUSER', 'efront_database_user');
 /** The database user password*/
-define('G_DBPASSWD', 'solaris');
+define('G_DBPASSWD', 'svkK4IXJ25Z2mmCYJSN3D2d0LAQFuoLk');
 /** The database name*/
-define('G_DBNAME', 'efront');
+define('G_DBNAME', 'efront_database');
 /** The database tables prefix*/
 define('G_DBPREFIX', '');
 
 /** The servername offset */
-define('G_OFFSET', '/efront/www/');
+define('G_OFFSET', '/www/');
 
 /**Software root path*/
 define('G_ROOTPATH', str_replace("\\", "/", dirname(dirname(__FILE__)))."/");
